@@ -1,0 +1,20 @@
+.InterBtn{
+    
+  display: block;
+  align-items: center;
+  border: 4px solid white;
+  padding: 1.5%;
+  margin-top: 0.5%;
+  background-color: inherit;
+color: var(--bg-color);
+
+}
+.container{
+   width: 1140px;   
+   position: relative;
+  box-sizing: border-box;
+}
+.InterBtn:hover{
+    cursor: pointer;
+    background-color: darkgray;
+}

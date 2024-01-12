@@ -1,0 +1,66 @@
+.interactivePage {
+  background-image: url("../../assets/marc-olivier.jpg");
+  background-size: cover;
+  background-position: center;
+
+  box-shadow: black 0 0 15px;
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+  padding-top: 2%;
+  padding-left: 30%;
+}
+.Btn {
+  margin-left: 80%;
+  height: 8%;
+  width: 12%;
+  background-color: white;
+  border: none;
+  color: black;
+  font-family: var(--font-family-p);
+  font-size: var(--p-size);
+}
+.Btn:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+.pages {
+  padding: auto;
+  box-sizing: border-box;
+  display: flex;
+  padding-right: 5%;
+  padding-top: 0%;
+  color: white;
+  font-family: var(--font-family-p);
+  font-size: 20px;
+}
+.a {
+  padding: 5%;
+}
+.a:hover {
+  border-bottom: var(--bg-color) solid 5px;
+  cursor: pointer;
+}
+.titleText {
+  color: var(--bg-color);
+  font-family: var(--font-family-main);
+  font-size: var(--title-size);
+  justify-content: center;
+  align-items: center;
+}
+.btns {
+  margin: 0 15px;
+  padding: 20px 15px;
+  top: auto;
+  left: 20;
+  right: 30;
+
+  font-family: var(--font-family-p);
+  font-size: var(--p-size);
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  display: flexbox;
+}

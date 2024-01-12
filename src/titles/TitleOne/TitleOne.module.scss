@@ -1,0 +1,58 @@
+.firstTitle {
+  background-color: inherit;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  &::before {
+    content: "";
+    display: flex;
+    top: 10;
+    bottom: 10;
+    left: 0;
+    width: 60%;
+    height: 3px;
+    background-color: black;
+  }
+  &::after {
+    content: "";
+    display: flex;
+    left: -100;
+    width: 60%;
+    height: 3px;
+    background-color: black;
+  }
+}
+.container {
+  width: 1140px;
+  height: 30vh;
+  padding-top: 0%;
+  padding-left: 50%;
+  padding-right: 0%;
+  padding-bottom: 5%;
+  display: flex;
+  align-items: center;
+}
+.rightContent {
+  display: block;
+}
+.Num {
+  font-size: 160px;
+  color: goldenrod;
+}
+.text {
+  position: relative;
+
+  padding-left: 15px;
+  font-family: var(--font-family-main);
+  font-size: var(--title-size);
+  color: var(--text-color);
+}
+.smallText {
+  position: relative;
+  padding-left: 15px;
+  padding-top: 5%;
+  padding-bottom: 0;
+  font-size: 24px;
+  font-family: var(--font-family-p);
+  color: var(--text-color);
+}

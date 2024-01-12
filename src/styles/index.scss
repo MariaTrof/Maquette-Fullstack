@@ -1,0 +1,16 @@
+@import "global";
+@import "reset";
+
+.app{
+  width: 100vh;
+  height: 100vh;
+}
+.container{
+    max-width: 1140px;
+    
+}
+.img{
+    top: auto;
+    position: fixed;
+    height: 80%;
+}
